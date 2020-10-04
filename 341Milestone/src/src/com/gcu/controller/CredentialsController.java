@@ -89,6 +89,9 @@ public class CredentialsController {
 			return new ModelAndView("errorPage");
 		}			
 	}	
+	/**
+	 * logout active user
+	 */
 	@RequestMapping(path="/logout", method=RequestMethod.GET)
 	public ModelAndView logoutUser() throws DatabaseException 
 	{	
